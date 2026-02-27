@@ -20,7 +20,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bitsOfCode}
               isBlog={false}
               title="Puma Clone"
               description="A fully responsive web-based clone of the Puma e-commerce website. Built to demonstrate frontend development skills, featuring modern UI components, smooth navigation, and a user-friendly layout."
