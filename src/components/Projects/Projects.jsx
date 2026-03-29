@@ -18,6 +18,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Indian Terrain"
+              description="A fully responsive web-based clone of the indian terrain e-commerce website. Built to demonstrate frontend development skills, featuring modern UI components, smooth navigation, and a user-friendly layout."
+              ghLink="https://github.com/smthakor007/indian-terrain-clone"
+              demoLink="https://indian-terrain-clonne.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
